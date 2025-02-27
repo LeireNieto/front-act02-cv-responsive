@@ -96,11 +96,7 @@ dl {
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      }
    
-  
-     li {
-     margin-left: 25px;
-     }
-
+       
     .spacing {
       margin-bottom: 25px;
     }
@@ -116,6 +112,7 @@ dl {
   li {
   color: black;
   font-size: 25px;
+  margin-left: 25px;
   }
 
 dt dd {
@@ -123,7 +120,7 @@ dt dd {
   font-size: 25px;
 }
   
-  .custom{
+  .custom {
     margin-bottom: 30px;
   }
   
