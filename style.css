@@ -1,18 +1,19 @@
 
 
 
+  
 * {
   margin: 0;
   padding: 0;
 }
 body {
   font-size: 20px;
-  line-height: 35px;
-  width: 800px;
+  line-height: 1.75;
+  width: 90%;
   margin: 15px auto 15px;
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  width: 60%;  
+
 
   header {
     
