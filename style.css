@@ -14,7 +14,7 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 60%;  
 
-  header{
+  header {
     
    display: grid;
    grid-template-columns: 1fr auto;
@@ -25,7 +25,7 @@ body {
    margin-bottom: 30px;
     
   
-    h1{
+    .fn {
     color: white;
     display: block;
     font-size: 60px;
@@ -36,6 +36,10 @@ body {
     }
 
     p {
+      color: white;
+    }
+
+    .tel {
     color: white; 
     margin-left: 5px;
     margin-top: 15px;
@@ -45,23 +49,19 @@ body {
     line-height: 1.5;
     }
    
-    #objective p{
+    #objective p {
        font-style: italic;
+       color: white;
     }
   }
-    a{
+    a {
     color: grey;
     }
   }
  
-/* Media query para pantallas más pequeñas */
-@media (max-width: 768px) {
-    .columna {
-        flex: 100%; /* Cada columna ocupa todo el ancho */
-    }
-  }
+ 
 
-main{
+main {
   width: 103%; /* Establece un 80% del ancho de la pantalla */
   margin-top: 15px;
 }
@@ -82,12 +82,12 @@ dl {
     font-style: italic;
     font-size: 27px;
     text-align: right;
+    margin-top: 20px;
     }
           
      dl dd h2 {
      font-size: 30px;
-     color: rgb(138, 70, 7);
-     margin-top: 0px;
+     color: rgb(155, 65, 13);
      }
   
      span {
@@ -100,7 +100,10 @@ dl {
      li {
      margin-left: 25px;
      }
-    
+
+    .spacing {
+      margin-bottom: 25px;
+    }
 
     p {
     color: black;
@@ -116,19 +119,22 @@ dl {
   }
 
 dt dd {
-  color: black; 
+  color: rgb(177, 98, 24); 
   font-size: 25px;
 }
-   h2 {
-   margin-top: 50px;
-   }
+  
+  .custom{
+    margin-bottom: 30px;
+  }
   
    dl dd {
     color: black;
     padding-right: 10px;
     font-size: 25px;
+    margin-top: 20px;
    }
 
+    
   #pic {
   width: 370px;
   height: 380px;
